@@ -1,7 +1,7 @@
 // Qué estamos haciendo?
 // Estamos en el trigger del puerto de la API
 // Esto quiere decir que el usuario, desde el frontend nos va a hablar directamente a nosotros acá
-// Nosotros, desde esta neurona, nos vamos a encargar de dirigir las acciones al lugar correspondiente.
+// Nosotros, desde esta "neurona", nos vamos a encargar de dirigir las acciones al lugar correspondiente.
 
 // En este caso, el usuario quiere tanto logearse como registrarse.
 
