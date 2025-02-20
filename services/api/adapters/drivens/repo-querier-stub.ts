@@ -22,7 +22,7 @@ const repoUserMock: RepoUser = {
 }
 
 
-class RepoQuerierStub implements ForRepoQuerying {
+export class RepoQuerierStub implements ForRepoQuerying {
     getUser(email: string): Promise<RepoUser> {
         return Promise.resolve(repoUserMock);
     }
