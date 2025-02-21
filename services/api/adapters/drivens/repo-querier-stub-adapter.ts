@@ -1,6 +1,6 @@
 import { ForRepoQuerying } from "../../ports/drivens";
 import { User as RepoUser } from "../../../repository/app/schemas";
-import { User } from "../../ports/drivers";
+import { User } from "../../app/schemas";
 
 // Venimos a implementar el contrato establecido en el drive port.
 // export interface ForRepoQuerying {

@@ -3,7 +3,8 @@
 // Un stub en programación es una implementación mínima y generalmente "falsa" de una función, método o módulo que se usa para simular el comportamiento de una dependencia real. 
 // Los stubs se utilizan principalmente en pruebas unitarias y en el desarrollo incremental cuando una parte del sistema aún no está lista.
 
-import { AuthDetails, ForControlAuthenticating, Permissions } from "../../ports/drivens";
+import { AuthDetails, Permissions } from "../../app/schemas";
+import { ForControlAuthenticating } from "../../ports/drivens";
 
 const authDetailsMock: AuthDetails = {
     token: 'askddk3k4k3kksdasd',
