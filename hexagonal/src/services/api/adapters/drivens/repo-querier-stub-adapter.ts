@@ -1,6 +1,6 @@
 import { ForRepoQuerying } from "../../ports/drivens";
 import { User as RepoUser } from "../../../repository/app/schemas";
-import { User } from "../../app/schemas";
+import type { AuthenticatedUser, User } from "../../app/schemas";
 
 // Venimos a implementar el contrato establecido en el drive port.
 // export interface ForRepoQuerying {
@@ -16,11 +16,10 @@ import { User } from "../../app/schemas";
 // }
 
 const repoUserMock: RepoUser = {
-    id: 'asdksjd',
-    name: 'ajsdj',
-    email: 'askasd@gmail.com',
+    id: '1',
+    name: 'John Doe',
+    email: 'john@gmail.com',
 }
-
 
 export class RepoQuerierStub implements ForRepoQuerying {
     getUser(email: string): Promise<RepoUser> {

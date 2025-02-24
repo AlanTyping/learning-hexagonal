@@ -15,7 +15,7 @@ export class Api implements ForAuthenticating {
 
         const result = {
             ...user,
-            ...permissions,
+            permissions,
             ...authDetails
         }
 
@@ -31,7 +31,7 @@ export class Api implements ForAuthenticating {
         
         const result = {
             ...newUser,
-            ...permissions,
+            permissions,
             ...authDetails
         }
 
